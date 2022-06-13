@@ -2,6 +2,7 @@
 <html lang="br">
 
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="C:\Users\nksad\html-css\HTML-CSS\css\styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +12,7 @@
 
 <body>
     <!--Barra de navegação-->
-    <header>
+    <header id="navbar">
         <img src="C:\Users\nksad\html-css\HTML-CSS\img\shuriken.png" alt="Estrela ninja">
         <h2>Kleyton da Silva </h2>
         <nav>
@@ -26,7 +27,7 @@
  <!--Fechamento da barra de navegação-->
  <!--Banner Inicio = aqui é o local ms importante do site -->
     <main>  
-        <div id="banner-info">
+        <div id="main-banner">
             <div id="banner-info">
                 <h1>Olá, eu sou Kleyton da Silva</h1>
                 <img src="C:\Users\nksad\html-css\HTML-CSS\img\ninja.png" alt="Perfil Ninja">
@@ -34,7 +35,7 @@
             </div>
         </div>
         <!--about inicio-->
-        <section id="about=section">
+        <section id="about-section">
             <h2>Sobre o meu jeito ninja de ser</h2>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </p>  
@@ -42,6 +43,70 @@
         <!--about fim-->
     </main>
  <!--Banner Final-->
+ <!--Skills inicio-->
+    <section id="skills-section">
+        <div class="container">
+            <div class="skills-container">
+                <img src="C:\Users\nksad\html-css\HTML-CSS\img\weapon1.png">
+                <h3> Desenvolvimento</h3>
+                <p>Minha maior paixão é desenvolvolver projetos web</p>
+                <p class="subtitle"> Liguagens que utilizo:</p>
+                <p>HTML5, CSS3, JAVA, PYTHON, DARK, PHP, e  JS</p>
+                <P class="subtitle"> Projetos que posso desenvolver:</P>
+                <p>E-commerces,Sites institucionais, Sistema de qualquer complexidade  e Sistemas Mobile </p>
+            </div>
+
+            <div class="skills-container central">
+                <img src="C:\Users\nksad\html-css\HTML-CSS\img\weapon2.png">
+                <h3> Criação</h3>
+                <p>Atuo também na análise e gerenciamento de projetos</p>
+                <p class="subtitle"> Meus conhecimentos:</p>
+                <p>Analise de Software, Engenharia de requisitos, Análise de Infra </p>
+                
+            </div>
+            <div class="skills-container">
+                <img src="C:\Users\nksad\html-css\HTML-CSS\img\weapon3.png">
+                <h3> Infraestrutura</h3>
+                <p>Posso mensurar seus servidores, deixando o projeto mais perfomático</p>
+                <p class="subtitle"> Serviço de cloud:</p>
+                <p>AWS, Google Cloud, Microsoft Azure</p>
+                <P class="subtitle"> O que posso fazer:</P>
+                <p>Clusters, servidores de CDN, diminuir o tempo de requisição </p>
+            </div>
+
+        </div>
+    </section>
+ <!--Skills fim-->
+ <!-- Jobs Inicio-->
+    <section id="jobs-section">
+        <h2> Veja meu últimos trabalhos</h2>
+        <p>Aqui estão os meus trabalhos mais recentes, para ver todos <a href="#">Clique aqui.</a></p>
+        <div class="job-container">
+            <div class="job-box proj1"></div>
+            <div class="job-box proj2"></div>
+            <div class="job-box proj3"></div>
+        </div>
+        <div class="job-container">
+            <div class="job-box proj2"></div>
+            <div class="job-box proj3"></div>
+            <div class="job-box proj1"></div>
+        </div>
+    </section>
+ <!-- Jobs Fim-->
 </body>
+<!--Footer incio-->
+<footer>
+    <h2>Me mande uma  menssagem</h2>
+    <p>Caso queira falar sobre algum projeto, me contratar para algum serviço, ou falar ninjas...</p>
+    <img src="C:\Users\nksad\html-css\HTML-CSS\img\ninja.png" alt="perfil Ninja">
+    <form action="" method="">
+        <input type="text" name="name" placeholder="Seu nome">
+        <input type="email" name="email" placeholder="Seu E-mail">
+        <textarea name=" msg" placeholder="Digite sua Mensagem"></textarea>
+        <input type="submit" value="Enviar">
+    </form>
+    <p>Desenvolvido por <span class="Detail"> Kleyton da Silva</span></p>
+</footer>
+<!--Footer fim-->
 
 </html>
